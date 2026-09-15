@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cap, par Zoī</title>
+<style>
+  :root{ --paper:#EDF1EF; --ink:#16302A; --muted:#4A5A54; --faint:#8C9A94; --rule:#E0E6E3; --green:#175448; }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+        background:var(--paper); color:var(--ink); -webkit-font-smoothing:antialiased; }
+  .wrap{ max-width:760px; margin:0 auto; padding:56px 24px 80px; }
+  header{ display:flex; justify-content:space-between; align-items:baseline; padding-bottom:40px; }
+  .mark{ font-size:17px; font-weight:600; letter-spacing:-0.3px; }
+  .by{ font-size:12.5px; color:var(--faint); }
+  h1{ font-size:clamp(28px,5vw,38px); line-height:1.18; font-weight:600; letter-spacing:-0.8px; }
+  .lede{ font-size:16px; line-height:1.65; color:var(--muted); margin-top:18px; max-width:62ch; }
+  section{ margin-top:56px; padding-top:36px; border-top:1px solid var(--rule); }
+  h2{ font-size:19px; font-weight:600; letter-spacing:-0.3px; }
+  .note{ font-size:14.5px; line-height:1.65; color:var(--muted); margin-top:10px; max-width:62ch; }
+  figure{ margin-top:24px; background:#fff; border:1px solid var(--rule); border-radius:4px; padding:22px; text-align:center; }
+  figure img{ max-width:100%; height:auto; display:block; margin:0 auto; border-radius:2px; }
+  figure img.phone{ max-width:330px; }
+  .rule{ margin-top:56px; padding:22px 24px; background:#F4F8F6; border-left:2px solid var(--green); }
+  .rule p{ font-size:15px; line-height:1.65; color:var(--ink); }
+  footer{ margin-top:56px; padding-top:22px; border-top:1px solid var(--rule); font-size:12.5px; line-height:1.7; color:var(--faint); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="mark">Cap</div>
+    <div class="by">par Zoī</div>
+  </header>
+
+  <h1>Le check-up dit quoi&nbsp;faire.<br>Cap dit quand.</h1>
+  <p class="lede">Dix recommandations médicales produisent dix intentions concurrentes, alors que la capacité de changement d’une personne reste limitée. Cap décide quoi rendre faisable maintenant, apprend pourquoi une action n’a pas eu lieu, et adapte les conditions d’exécution sans jamais toucher à la prescription.</p>
+
+  <section>
+    <h2>Lundi</h2>
+    <p class="note">Trois actions activées sur dix. Le coucher parce qu’il conditionne les séances du matin, le magnésium parce qu’il se greffe sur ce même geste, une seule séance de renforcement au lieu de trois. Les pas sont comptés sans rien demander. Les sept recommandations restantes restent visibles, en attente.</p>
+    <figure><img class="phone" src="cap-lundi.png" alt="Écran Cap du lundi : trois actions activées sur dix."></figure>
+  </section>
+
+  <section>
+    <h2>Quand l’action n’a pas eu lieu</h2>
+    <p class="note">Trois mardis de suite, la dernière réunion s’est terminée après 18 h 40. Cap ne renvoie pas un quatrième rappel : il en conclut que le créneau n’a jamais été disponible et le déplace. La prescription du médecin, elle, ne bouge pas.</p>
+    <figure><img src="cap-creneau.png" alt="Écran Cap : la séance du mardi est déplacée au jeudi 7 h 45."></figure>
+  </section>
+
+  <section>
+    <h2>Quand la vie change</h2>
+    <p class="note">Une phrase suffit. Cap ne reprogramme pas le plan à l’identique, il le renégocie : il suspend ce qui est impossible, décale ce qui peut l’être, maintient ce qui voyage sans effort, et le dit explicitement pour que la semaine ne soit pas vécue comme un échec.</p>
+    <figure><img src="cap-newyork.png" alt="Écran Cap : adaptation du plan pendant un déplacement à New York."></figure>
+  </section>
+
+  <div class="rule">
+    <p>La règle qui gouverne tout le système : Cap peut modifier le plan d’exécution, jamais l’intention médicale. Toute ambiguïté clinique remonte au médecin référent.</p>
+  </div>
+
+  <footer>
+    Cap, par Zoī — 12 rue Volney, 75002 Paris<br>
+    Cap est une couche d’exécution comportementale. Il ne pose aucun diagnostic, ne modifie aucune prescription et ne remplace ni le médecin traitant ni le médecin référent.
+  </footer>
+
+</div>
+</body>
+</html>
